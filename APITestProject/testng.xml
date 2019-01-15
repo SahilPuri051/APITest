@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Aasaan Jobs Test">
+    <test name="Test API" preserve-order="true">
+        <classes>
+            <class name="AasaanJobsAPITest">
+                <methods>
+                    <include name="isRowsFromGivenFileIsEqual"/>
+                    <include name="checkAPI"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

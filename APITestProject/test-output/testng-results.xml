@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12150" started-at="2019-01-15T18:17:17Z" finished-at="2019-01-15T18:17:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12150" started-at="2019-01-15T18:17:17Z" finished-at="2019-01-15T18:17:29Z">
+      <class name="AasaanJobsAPITest">
+        <test-method status="PASS" signature="isRowsFromGivenFileIsEqual()[pri:0, instance:AasaanJobsAPITest@28d25987]" name="isRowsFromGivenFileIsEqual" duration-ms="57" started-at="2019-01-15T18:17:17Z" finished-at="2019-01-15T18:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRowsFromGivenFileIsEqual -->
+        <test-method status="PASS" signature="checkAPI()[pri:0, instance:AasaanJobsAPITest@28d25987]" name="checkAPI" duration-ms="12032" started-at="2019-01-15T18:17:17Z" depends-on-methods="AasaanJobsAPITest.isRowsFromGivenFileIsEqual" finished-at="2019-01-15T18:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAPI -->
+      </class> <!-- AasaanJobsAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
